@@ -1,0 +1,90 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    scrollbar-width: none;
+    font-family: "Open Sans", system-ui;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background-color: var(--Violet);
+    background-image: url(./images/bg-desktop.svg);
+    min-height: 100vh;
+}
+
+header {
+    margin: 4%;
+}
+
+.logo {
+    background-image: url(./images/logo.svg);
+    width: 270px;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    padding: 0 5%;
+    padding-bottom: 0;
+    gap: 4%;
+    align-items: center;
+}
+
+.text {
+    width: 510px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+button {
+    padding: 1em 3.5em;
+    background-color: white;
+    color: var(--Violet);
+    border: 0;
+    border-radius: 2em;
+    font-size: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.253);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--Soft-Magenta);
+        color: white;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3% 5%;
+}
+
+svg {
+    fill: white;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    :hover {
+        fill: var(--Soft-Magenta);
+        border-color: var(--Soft-Magenta);
+    }
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
