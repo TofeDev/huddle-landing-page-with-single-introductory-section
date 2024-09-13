@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Master Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-CUXVKPeZIy)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-CUXVKPeZIy)
 - Live Site URL: [Webpage](https://tofedev.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## Author
